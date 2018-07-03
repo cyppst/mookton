@@ -1,0 +1,6 @@
+{
+  "name": "golfcomsci57/att2000",
+  "require": {
+    "fguillot/picodb": "@stable"
+  }
+}
