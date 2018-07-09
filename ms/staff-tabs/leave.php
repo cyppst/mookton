@@ -139,7 +139,7 @@
                                                             <label for="leavetype">ประเภทการลา</label>
                                                             <select class="form-control m-bot15" id="addleavetype" name="addleavetype">
                                                                 <option value="ลาพักผ่อน">ลาพักผ่อน</option>
-                                                                <option value="ลาป่วย/ลาคลอด">ลาป่วย/ลาคลอด</option>
+                                                                <option value="ลาป่วย/ลาคลอด/ลากิจ">ลาป่วย/ลาคลอด/ลากิจ</option>
                                                             </select>
                                                         </div>
                                                         <div class="form-group">
@@ -230,7 +230,7 @@
                                                             <label for="leavetype">ประเภทการลา</label>
                                                             <select class="form-control m-bot15" id="leavetype" name="leavetype">
                                                                 <option value="ลาพักผ่อน">ลาพักผ่อน</option>
-                                                                <option value="ลาป่วย/ลาคลอด">ลาป่วย/ลาคลอด</option>
+                                                                <option value="ลาป่วย/ลาคลอด/ลากิจ">ลาป่วย/ลาคลอด/ลากิจ</option>
                                                             </select>
                                                         </div>
                                                         <div class="form-group">

@@ -105,18 +105,20 @@ include("header_lv2.php");
                 <tr>
                     <th>วันที่/เวลา</th>
                     <th>ชื่อ</th>
-                    <th>เข้า/ออก งาน</th>
+                    <th>เข้า</th>
+                    <th>ออก</th>
 
                 </tr>
                 </thead>
                 <tbody>
                 <?php
-                $records = $mysql_conn->table('times')->join('staff', 'USERID', 'USERID')->findAll();
+                $records = $mysql_conn->table('times2')->join('staff', 'staff_ID', 'staff_ID')->findAll();
                 foreach ($records as $record) { ?>
                     <tr>
-                        <td><?= $record['CHECKTIME'] ?></td>
+                        <td><?= $record['date'] ?></td>
                         <td><?= $record['staff_name'] ?></td>
-                        <td><?= convertType($record['CHECKTYPE'] )?></td>
+                        <td><?= $record['time_in'] ?></td>
+                        <td><?= $record['time_out'] ?></td>
                     </tr>
                 <?php } ?>
 
