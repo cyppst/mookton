@@ -11,8 +11,6 @@
     	exit();
 	}
 	$db_connection->set_charset("utf8");
-	// include_once 'class.menu.php';
-	// $MENU = new MENU($DB_CONNECTION);
 	
 	
 ?>

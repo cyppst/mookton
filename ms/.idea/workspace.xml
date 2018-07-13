@@ -28,11 +28,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="time.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="time.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/time.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="119" column="47" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
+            <state relative-caret-position="2057">
+              <caret line="121" column="25" lean-forward="true" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/att2000/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time_adddate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/time_adddate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbconfig.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbconfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rank.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rank.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -48,7 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ยืนยันการ</find>
       <find>ยัน</find>
       <find>component</find>
       <find>job_ed</find>
@@ -69,7 +104,7 @@
       <find>posi</find>
       <find>pdf</find>
       <find>button</find>
-      <find>ttons: [</find>
+      <find />
       <find>exampl</find>
       <find>example1</find>
       <find>\</find>
@@ -78,6 +113,7 @@
       <find>base</find>
       <find>uploads</find>
       <find>ลาป่วย</find>
+      <find>$con</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;../</replace>
@@ -98,7 +134,6 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/js/dataTables.buttons.min.js" />
         <option value="$PROJECT_DIR$/education_edit.php" />
-        <option value="$PROJECT_DIR$/dbconfig.php" />
         <option value="$PROJECT_DIR$/att2000/config/database.php" />
         <option value="$PROJECT_DIR$/att2000/join.php" />
         <option value="$PROJECT_DIR$/att2000/config/reset.php" />
@@ -140,6 +175,8 @@
         <option value="$PROJECT_DIR$/staff-tabs/leave.php" />
         <option value="$PROJECT_DIR$/staff-tabs/time.php" />
         <option value="$PROJECT_DIR$/time.php" />
+        <option value="$PROJECT_DIR$/dbconfig.php" />
+        <option value="$PROJECT_DIR$/time_adddate.php" />
       </list>
     </option>
   </component>
@@ -177,9 +214,9 @@
       <path value="$PROJECT_DIR$/att2000/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-55" />
-    <option name="y" value="-16" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="69" />
+    <option name="y" value="115" />
     <option name="width" value="1386" />
     <option name="height" value="733" />
   </component>
@@ -196,6 +233,11 @@
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="att2000" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
@@ -279,12 +321,12 @@
       <workItem from="1530451593106" duration="205000" />
       <workItem from="1530451835232" duration="8978000" />
       <workItem from="1530623741969" duration="11462000" />
-      <workItem from="1531121782284" duration="2354000" />
+      <workItem from="1531121782284" duration="5856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87208000" />
+    <option name="totallyTimeSpent" value="90710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -350,31 +392,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/time_adddate.php</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app3.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/New folder (3)/ms/app2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/New folder (2)/app2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aaa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -468,6 +496,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -605,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="219" column="60" selection-start-line="219" selection-start-column="60" selection-end-line="219" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leave.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -661,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/staff-tabs/time.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staff-tabs/salary.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -675,10 +692,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/staff-tabs/time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_adddate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/time.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="119" column="47" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
+        <state relative-caret-position="2057">
+          <caret line="121" column="25" lean-forward="true" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/att2000/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
